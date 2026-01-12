@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Login • CareHUB</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="login.css">
+</head>
+<body>
+
+<div class="login-container">
+  <div class="login-card">
+    <div class="logo">🍎</div>
+
+    <h1>Entrar</h1>
+    <p>Acesse sua conta para agendar consultas</p>
+
+    <form id="loginForm">
+      <input type="email" placeholder="E-mail" required>
+      <input type="password" placeholder="Senha" required>
+
+      <button type="submit" class="btn primary">Entrar</button>
+    </form>
+
+    <div class="divider">
+      <span>ou</span>
+    </div>
+
+    <button class="btn google">
+      <img src="https://www.gstatic.com/firebasejs/ui/2.0.0/images/auth/google.svg">
+      Entrar com Google
+    </button>
+
+    <div class="links">
+      <a href="#">Criar conta</a>
+      <a href="#">Esqueci minha senha</a>
+    </div>
+  </div>
+</div>
+
+<script src="login.js"></script>
+</body>
+</html>

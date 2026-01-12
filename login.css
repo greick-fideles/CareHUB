@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+  height: 100vh;
+  background: #f5f5f7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.login-card {
+  background: #fff;
+  width: 360px;
+  padding: 40px;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.08);
+}
+
+.logo {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 28px;
+  font-weight: 600;
+}
+
+p {
+  font-size: 14px;
+  color: #6e6e73;
+  margin: 10px 0 30px;
+}
+
+input {
+  width: 100%;
+  padding: 12px 14px;
+  margin-bottom: 14px;
+  border-radius: 10px;
+  border: 1px solid #d2d2d7;
+  font-size: 14px;
+}
+
+input:focus {
+  outline: none;
+  border-color: #0071e3;
+}
+
+.btn {
+  width: 100%;
+  padding: 12px;
+  border-radius: 24px;
+  border: none;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.btn.primary {
+  background: #0071e3;
+  color: white;
+  margin-top: 10px;
+}
+
+.divider {
+  margin: 25px 0;
+  position: relative;
+}
+
+.divider span {
+  background: #fff;
+  padding: 0 10px;
+  font-size: 13px;
+  color: #6e6e73;
+}
+
+.divider::before {
+  content: "";
+  height: 1px;
+  background: #d2d2d7;
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 0;
+  z-index: -1;
+}
+
+.btn.google {
+  background: #fff;
+  border: 1px solid #d2d2d7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.btn.google img {
+  width: 18px;
+}
+
+.links {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.links a {
+  font-size: 13px;
+  text-decoration: none;
+  color: #0071e3;
+}
